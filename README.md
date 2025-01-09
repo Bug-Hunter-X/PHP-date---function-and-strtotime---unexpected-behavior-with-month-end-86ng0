@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP's date handling when using strtotime to modify dates, specifically around month end. The `bug.php` file contains the problematic code, and `bugSolution.php` offers a corrected approach using DateTime objects which handle date arithmetic more robustly.  See the detailed explanation in the comments within the code.
